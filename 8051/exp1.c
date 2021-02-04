@@ -4,6 +4,7 @@
 #define delay 100000
 
 const vals[size] = {1, 2, 4, 8, 16, 32, 64, 128};
+sbit port0 = P1^0;
 
 void main() {
 
